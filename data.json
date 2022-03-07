@@ -1,0 +1,51 @@
+{
+    "states":[
+        {
+            "stateNumber": 1,
+            "action": "right",
+            "transitions": [
+                {
+                    "character": "b",
+                    "stateNumber": 1
+                },
+                {
+                    "character": "a",
+                    "stateNumber": 2
+                },
+                {
+                    "character": "#",
+                    "stateNumber": 3
+                }
+            ]
+        },
+        {
+            "stateNumber": 2,
+            "action": "right",
+            "transitions": [
+                {
+                    "character": "b",
+                    "stateNumber": 2
+                },
+                {
+                    "character": "a",
+                    "stateNumber": 1
+                },
+                {
+                    "character": "#",
+                    "stateNumber": 4
+                }
+            ]
+        },
+        {
+            "stateNumber": 3,
+            "action": "accept",
+            "transitions": []
+        },
+        {
+            "stateNumber": 4,
+            "action": "reject",
+            "transitions": []
+        }
+    ]
+    
+}

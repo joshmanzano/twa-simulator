@@ -1,0 +1,20 @@
+
+* {
+  font-family: 'Press Start 2P', cursive !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #EBEBEB !important;
+}
+
+/* .MuiIconButton-root {
+  color: #EBEBEB !important;
+  border: 1px solid #EBEBEB !important;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
